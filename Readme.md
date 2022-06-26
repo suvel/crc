@@ -57,6 +57,6 @@ If everything above is done correct you should be ble to create the component us
 
 ### Setup VS code to leverage creating React component
 
-Create a split terminal, one can be used for running script and checking logs, and the second can be used for creating components.
+Create a split terminal, one can be used for running script and checking logs, and the second can be used for creating components. In the second PowerShell terminal cd to the directory where the components are maintained in your project. After this setup you are just one cmd away from creating components 🤗....
 
 ![alt text](./asset/vscode_setup.PNG)
