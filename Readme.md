@@ -22,7 +22,7 @@ Go to the same directory of the file
     Set-ExecutionPolicy Unrestricted
 ```
 
-> ⚠ setting up "Unrestricted" can compromise the security.
+> ⚠ **setting up "Unrestricted" can compromise the security**
 
  In order to restrict the ExecutionPolicy use the below command
 
