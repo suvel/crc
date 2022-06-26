@@ -22,6 +22,17 @@ Go to the same directory of the file
     Set-ExecutionPolicy Unrestricted
 ```
 
+> ⚠ setting up "Unrestricted" can compromise the security.
+
+ In order to restrict the ExecutionPolicy use the below command
+
+```
+    Set-ExecutionPolicy Restricted
+```
+
+
+
+
 3. To simplify the path while executing the script, we will use the PowerShell variable.
 
    1. Open PowerShell
