@@ -1,6 +1,6 @@
 ## Generate your React component
 
-This repo is to show case the PowerShell script that I created to generate React component folder and also append the code structure that I commonly use. By doing this I was able mitigate the boredom that come while creating folder, file and writhing the snippet in side the file....😫😫😫.
+This repo is to show case the PowerShell script that I created to generate React component folder and also append the code structure that I commonly use. By doing this I was able mitigate the boredom that come while creating folder, file and writhing the snippet inside the file....😫😫😫.
 
 ### How can you use
 
@@ -19,7 +19,7 @@ Go to the same directory of the file
 ![alt text](./asset/open_PS_in_admin.jpg)
 
 ```
-    Set-Executionpolicy Unrestricted
+    Set-ExecutionPolicy Unrestricted
 ```
 
 3. To simplify the path while executing the script, we will use the PowerShell variable.
@@ -30,6 +30,7 @@ Go to the same directory of the file
       ```
           notepad.exe $PROFILE
       ```
+      ![alt text](./asset/on_first_profile.PNG)
 
    3. We need to add our variable in the file
      
@@ -42,3 +43,9 @@ If everything above is done correct you should be ble to create the component us
 ```
 & CRC <component_name>
 ```
+
+### Setup VS code to leverage creating React component
+
+Create a split terminal, one can be used for running script and checking logs, and the second can be used for creating components.
+
+![alt text](./asset/vscode_setup.PNG)
